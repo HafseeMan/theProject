@@ -1,0 +1,54 @@
+.navbar {
+    background-color: rgba(129, 0, 71, 0.473);
+}
+
+.section1{
+    background-image: url('/assets/img/bg-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.square{
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: all is ease-in-out;
+    background-repeat: no-repeat;
+}
+.pink-color{
+    color: palevioletred;
+}
+.bg-pink {
+    background-color: palevioletred;
+}
+.bg-dark :hover{
+    color: papayawhip !important;
+}
+.step1{
+    background-image: url('/assets/img/step1.jpg');
+}
+.step2{
+    background-image: url('/assets/img/step2.jpg');
+}
+.step3{
+    background-image: url('/assets/img/step3.png');
+}
+.step-card > h2 {
+    opacity: 0;
+}
+.step-card:hover{
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(250, 224, 78);
+    -webkit-animation: switch 5s infinite;
+    background-image: none;
+    
+}
+
+.square:hover h2{
+    opacity: 1;
+}
