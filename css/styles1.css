@@ -1,9 +1,15 @@
-.navbar {
-    background-color: rgba(129, 0, 71, 0.473);
+
+/*GENERAL*/
+.underline{
+    text-decoration: underline;
+}
+.bg-darkpurple{
+    background-color: rgb(122, 73, 100);
 }
 
+/*INDEX PAGE*/
 .section1{
-    background-image: url('/assets/img/bg-image.jpg');
+    background-image: url('../assets/img/index/bg-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,23 +25,47 @@
     transition: all is ease-in-out;
     background-repeat: no-repeat;
 }
+.square-sm{
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: all is ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.square-xsm{
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: all is ease-in-out;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.square-sm:hover{
+    cursor: pointer;
+}
 .pink-color{
     color: palevioletred;
 }
 .bg-pink {
-    background-color: palevioletred;
+    background-color: rgba(129, 0, 71, 0.473);
 }
-.bg-dark :hover{
+
+.bg-dark:hover{
     color: papayawhip !important;
 }
 .step1{
-    background-image: url('/assets/img/step1.jpg');
+    background-image: url('../assets/img/index/step1.jpg');
 }
 .step2{
-    background-image: url('/assets/img/step2.jpg');
+    background-image: url('../assets/img/index/step2.jpg');
 }
 .step3{
-    background-image: url('/assets/img/step3.png');
+    background-image: url('../assets/img/index/step3.png');
 }
 .step-card > h2 {
     opacity: 0;
@@ -51,4 +81,27 @@
 
 .square:hover h2{
     opacity: 1;
+}
+
+/*STYLES PAGE*/
+.nav-bg{
+    background-image: url('../assets/img/stylesPage/bg-img.jpg');
+    background-size: inherit;
+    background-repeat: repeat-x;
+}
+.bg-gray{
+    background-color: gainsboro;
+}
+.style-showcase{
+    background-image: url('../assets/img/stylesPage/style1.jpg');
+}
+
+.style-showcase:hover{
+   border: grey 2px solid !important;
+}
+.style-showcase-options:hover{
+    opacity: 1;
+}
+.fabric{
+    background-image: url('../assets/img/fabric/default.jpg');
 }

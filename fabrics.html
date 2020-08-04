@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style selection</title>       
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles1.css" rel="stylesheet" />
+    </script>
+</head>
+<body id="page-top">
+    <div class="row">
+        <div class="col-lg-4 bg-gray p-3">
+            <button class="square-xsm m-2 bg-light rounded-circle border-outline-dark float-left" onclick="document.location='styles-display.html'"><h2><</h2></button>
+            <h3 class="underline text-center p-3">PREVIEW</h3>
+            <p class="text-center">SELECT FABRIC TO VIEW WITH STYLE</p>
+            <img class="img img-thumbnail w-75" src="/assets/img/fabric/style2.png">
+           
+            <div id="fabric-details" class="p-3 float-left text-monospace">
+                <p>
+                    <strong>TYPE:</strong>(Super) Volesco <br>
+                    <strong>TRANSPARENCY:</strong> 0      <br>
+                    <strong>PRICE: </strong> N 10,000  
+                </P>
+            </div>      
+            <div>
+                <div class="square-xsm bg-dark m-3 text-center">
+                    <img src="/assets/img/fabric/ankara4.jpg" class="w-100">
+                </div>
+                <button class="btn btn-block bg-primary w-25 mx-auto text-light" onclick="document.location='styles-display.html'">PICK</button>
+            </div>      
+            
+        </div>
+        <div class="col-lg-8 bg-light">
+            <!-- FILTER SEARCH-->
+            <nav class="js-scroll-trigger navbar navbar-expand-lg text-uppercase bg-pink w-100" id="mainNav">
+                <div class="position-static">
+                    <div class="float-right p-2">
+                        <input type="text" class="ml-0" placeholder="none selected">
+                        <button class="btn bg-dark text-light mr-0">FABRIC TYPE</button>
+                    </div>
+                    <div class="float-right p-2">
+                        <input type="text" class="ml-0" placeholder="None selected">
+                        <button class="btn bg-dark text-light mr-0">PRICE RANGE</button>
+                    </div>
+                    <div class="float-right p-2">
+                        <input type="text" class="ml-0" placeholder="none selected">
+                        <button class="btn bg-dark text-light mr-0">COLOR</button>
+                    </div>
+                </div>
+            </nav>
+            <!--FABRICS DISPLAY-->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara4.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/default.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara6.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara5.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara4.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/default.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara4.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara5.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 col-sm-6 my-auto">
+                    <div class="border-danger mx-auto square-sm text-center shadow-sm text-center"
+                        style="background-image:url('/assets/img/fabric/ankara6.jpg')">
+
+                        <div class="w-100 h-100 my-4 fade style-showcase-options">
+                            <h3 id="fabric-price" class="text-light">N10,000</h3>
+                            <h3 id="fabric-type" class="text-light">SUPER VOLESCO</h3>
+                            <button class="btn float-left bg-dark w-75 m-3 text-light ">PREVIEW</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>    
+                
+        </div>
+    </div>
+
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © E-D'INKI 2020</small></div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+     <!-- Third party plugin JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="js/scripts.js"></script>    
+</body>
+</html>
